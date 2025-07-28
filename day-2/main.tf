@@ -1,3 +1,4 @@
+#creation of ec2 instance
 
 resource "aws_instance" "example" {
   ami           = "ami-08a6efd148b1f7504"
@@ -5,3 +6,6 @@ resource "aws_instance" "example" {
   key_name = "jai"
     
   }
+
+
+
